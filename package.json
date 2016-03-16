@@ -1,0 +1,33 @@
+{
+  "name": "km-to-mi",
+  "version": "1.0.0",
+  "description": "Convert kilometers to miles",
+  "license": "MIT",
+  "repository": "Zertz/km-to-mi",
+  "author": {
+    "name": "Pier-Luc Gendreau",
+    "url": "github.com/Zertz"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "standard && ava",
+    "prepublish": "npm test"
+  },
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "keywords": [
+    "convert",
+    "kilometers",
+    "km",
+    "miles",
+    "mi"
+  ],
+  "devDependencies": {
+    "ava": "^0.12.0",
+    "standard": "^6.0.0"
+  }
+}
